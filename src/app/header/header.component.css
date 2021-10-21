@@ -30,7 +30,10 @@ p {
     float: right;
   }
   
-  .main-content {
-    float: right;
+  /*use media query to add a break point at 800px*/
+  @media screen and (max-width: 800px) {
+    li {
+      width: 100%;
+    }
   }
   
