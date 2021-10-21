@@ -1,1 +1,21 @@
-<p>sales-product-list works!</p>
+<div class="card m-5 table-responsive">
+    <table class="table table-striped table-dark table-hover">
+      <thead>
+        <tr>
+          <th scope="col">User Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let theFakeJson of theFakeJsons">
+          <th scope="row">{{ theFakeJson.id }}</th>
+          <td>{{ theFakeJson.name }}</td>
+          <td>{{ theFakeJson.gender }}</td>
+          <td>{{ theFakeJson.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

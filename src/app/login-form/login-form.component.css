@@ -1,0 +1,13 @@
+.btn-primary {
+    background-color: rgb(228, 11, 11);
+  }
+  .forgotStyle {
+    color: rgb(228, 11, 11);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .card {
+      width: 80%;
+    }
+  }
+  

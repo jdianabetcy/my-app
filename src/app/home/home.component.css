@@ -1,0 +1,17 @@
+.example-tab-icon {
+    margin-right: 8px;
+    background-color: black;
+}
+
+.example-card {
+    max-width: 400px;
+}
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.tab-group{
+    /* color:rgb(141, 139, 143); */
+}
